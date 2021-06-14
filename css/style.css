@@ -29,13 +29,14 @@ h1 {
   position: relative;
 }
 .main-img {
-  width: 50%;
   position: relative;
-  top: 150px;
-  left: 50%;
 }
 img {
-  width: 100%;
+  width: 50%;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+
 }
 .main-text {
   font-size: 60px;
@@ -46,5 +47,7 @@ img {
   background-color: #000080;
 }
 .main-content {
+  position: absolute;
+  top: 300px;
   margin-bottom: 100px;
 }
