@@ -7,25 +7,44 @@
   position: absolute;
   top: 15px;
   right: 5px;
+  text-align: center;
 }
 .link {
   width: 100px;
   margin: 10px;
   text-decoration: none;
-  color: blue;
+  color: #000080;
   font-weight: bold;
 }
 .header {
   font-size: 30px;
-  color:blue;
+  color: #000080;
   width: 400px;
   padding: 15px;
-  
 }
 h1 {
   display: inline;
 }
-.img {
-  width: 100px;
-  height: 75px;
+.main {
+  position: relative;
+}
+.main-img {
+  width: 50%;
+  position: relative;
+  top: 150px;
+  left: 50%;
+}
+img {
+  width: 100%;
+}
+.main-text {
+  font-size: 60px;
+}
+.box {
+  width: 1000px;
+  height: 200px;
+  background-color: #000080;
+}
+.main-content {
+  margin-bottom: 100px;
 }
